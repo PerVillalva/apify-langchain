@@ -13,7 +13,7 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 apify_api_token = os.getenv("APIFY_API_TOKEN")
 
-# Use the environment variables
+# Create an instance of the ApifyWrapper class.
 apify = ApifyWrapper()
 
 print("Loading dataset...")
