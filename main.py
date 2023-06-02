@@ -38,7 +38,7 @@ loader = apify.call_actor(
 index = VectorstoreIndexCreator().from_loaders([loader])
 
 
-query = "Is Apify running a video tutorial contest? If so, what are the rules and the rewards for the winners?"
+query = "What is Crawlee?"
 result = index.query_with_sources(query)
 
 # Print the query, answer and sources to the console.
